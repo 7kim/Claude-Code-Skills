@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-3-blueviolet" />
+  <img src="https://img.shields.io/badge/skills-4-blueviolet" />
   <img src="https://img.shields.io/badge/format-Claude%20Skill%20(SKILL.md)-2563EB" />
   <img src="https://img.shields.io/badge/license-MIT-green" />
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen" />
@@ -30,6 +30,7 @@ This repo collects the skills below, each in its own folder with full documentat
 | 📝 | **[Notes OCR](./notes-ocr)** | Digitizes handwritten scans/photos into Markdown + Excel + PDF, with faithful Mermaid diagram reconstruction |
 | 💡 | **[Brainstorm-to-Code](./brainstorm-to-code)** | Interactively brainstorms a topic and generates a Python class skeleton (attributes, getters/setters, method stubs) |
 | 🧠 | **[Agent_Brain](./brain-anatomy)** | A bio-inspired AI agent architecture that maps cerebral-cortex lobes onto orchestration modules — reference design + 10 UML diagrams |
+| 🔄 | **[Update GitHub Overview](./update-github-overview)** | Checks your GitHub repos and syncs your profile README's repo-count badge and Featured Projects section |
 
 ---
 
@@ -76,6 +77,31 @@ A reference architecture that maps the functional neuroanatomy of the human cere
 **Problem it solves:** giving a multi-module agent architecture a consistent, memorable mental model instead of ad-hoc bolted-on components.
 
 ➡️ [Full documentation](./brain-anatomy/README.md)
+
+---
+
+## 🔄 Update GitHub Overview
+
+<!-- Add a screenshot at assets/update-github-overview/screenshot-flow.png and
+     uncomment the block below, matching the other entries in this README:
+<p align="center">
+  <img src="assets/update-github-overview/screenshot-flow.png" width="700" alt="Update GitHub Overview flow" />
+</p>
+-->
+
+Checks a GitHub user's repos and keeps their profile README (the
+`<username>/<username>` repo shown on the GitHub profile page) in sync —
+refreshes the repo-count badge and drafts a Featured Project entry, matching
+the existing format, for any repo that isn't represented yet.
+
+**Problem it solves:** profile READMEs go stale the moment you push a new
+project — the repo count badge drifts and new work never gets a Featured
+Projects entry unless you remember to hand-write one.
+
+**Use it by saying:** *"update my GitHub overview page"*, *"sync my README
+with my repos"*, *"check if my profile README is out of date"*.
+
+➡️ [Full documentation](./update-github-overview/README.md)
 
 ---
 
