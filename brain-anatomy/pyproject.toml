@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-brain"
+version = "0.18.0"
+description = "A bio-inspired AI agent orchestration framework modeling cerebral lobes."
+readme = "readme.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+authors = [
+    {name = "Gemini Notebook", email = "notebook@gemini"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "pyyaml>=6.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/user/agent-brain"
+
+[tool.setuptools]
+py-modules = ["brain_anatomy"]
