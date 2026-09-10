@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-4-blueviolet" />
+  <img src="https://img.shields.io/badge/skills-6-blueviolet" />
   <img src="https://img.shields.io/badge/format-Claude%20Skill%20(SKILL.md)-2563EB" />
   <img src="https://img.shields.io/badge/license-MIT-green" />
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen" />
@@ -31,6 +31,8 @@ This repo collects the skills below, each in its own folder with full documentat
 | 💡 | **[Brainstorm-to-Code](./brainstorm-to-code)** | Interactively brainstorms a topic and generates a Python class skeleton (attributes, getters/setters, method stubs) |
 | 🧠 | **[Agent_Brain](./brain-anatomy)** | A bio-inspired AI agent architecture that maps cerebral-cortex lobes onto orchestration modules — reference design + 10 UML diagrams |
 | 🔄 | **[Update GitHub Overview](./update-github-overview)** | Checks your GitHub repos and syncs your profile README's repo-count badge and Featured Projects section |
+| 🏗️ | **[Architecture Diagram](./architecture-diagram)** | Generates dark-themed, self-contained SVG/HTML architecture, cloud/infra, and microservice topology diagrams |
+| 📐 | **[System Analysis & Design](./system-analysis-and-design)** | Produces exam-quality SRS + system-design documents from a project idea, and audits existing codebases against CS principles with evidence-based scoring |
 
 ---
 
@@ -102,6 +104,30 @@ Projects entry unless you remember to hand-write one.
 with my repos"*, *"check if my profile README is out of date"*.
 
 ➡️ [Full documentation](./update-github-overview/README.md)
+
+---
+
+## 🏗️ Architecture Diagram
+
+Generates professional, dark-themed technical architecture diagrams as standalone HTML files with inline SVG graphics — no external tools, API keys, or rendering libraries required. Covers software system architecture, cloud infrastructure (VPC, regions, subnets, managed services), microservice/service-mesh topology, and database + API maps, all following a consistent dark grid-backed visual language (JetBrains Mono typography, semantic color-coded component types, security/region boundary conventions).
+
+**Problem it solves:** hand-building consistent, professional-looking architecture diagrams is slow and the results are often visually inconsistent between diagrams.
+
+**Use it by saying:** *"diagram this architecture"*, *"draw our cloud infra"*, *"visualize this microservice topology"*.
+
+➡️ [Full documentation](./architecture-diagram/SKILL.md)
+
+---
+
+## 📐 System Analysis & Design
+
+Produces a complete, exam-quality System Requirements Specification (SRS) and system-design document from a project idea, delivered as Markdown/PDF with properly rendered diagrams. Also runs a separate strict, evidence-based codebase audit workflow (the PAOS Code Audit Framework v2.0) — 110 questions across 13 CS/math categories, each scored 0/1/2 with file:line evidence, producing a normalized grade, a gaps report, and phased implementation plans.
+
+**Problem it solves:** writing a rigorous SRS or grading a codebase against real CS principles (rather than vibes) is time-consuming and easy to do inconsistently.
+
+**Use it by saying:** *"write an SRS for this project"*, *"design this system for me"*, *"audit this codebase"*, *"benchmark the code"*.
+
+➡️ [Full documentation](./system-analysis-and-design/SKILL.md)
 
 ---
 
