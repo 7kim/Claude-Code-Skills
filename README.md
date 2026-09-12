@@ -109,17 +109,25 @@ with my repos"*, *"check if my profile README is out of date"*.
 
 ## 🏗️ Architecture Diagram
 
+<p align="center">
+  <img src="assets/architecture-diagram/screenshot-flow.png" width="700" alt="Architecture Diagram example output" />
+</p>
+
 Generates professional, dark-themed technical architecture diagrams as standalone HTML files with inline SVG graphics — no external tools, API keys, or rendering libraries required. Covers software system architecture, cloud infrastructure (VPC, regions, subnets, managed services), microservice/service-mesh topology, and database + API maps, all following a consistent dark grid-backed visual language (JetBrains Mono typography, semantic color-coded component types, security/region boundary conventions).
 
 **Problem it solves:** hand-building consistent, professional-looking architecture diagrams is slow and the results are often visually inconsistent between diagrams.
 
 **Use it by saying:** *"diagram this architecture"*, *"draw our cloud infra"*, *"visualize this microservice topology"*.
 
-➡️ [Full documentation](./architecture-diagram/SKILL.md)
+➡️ [Full documentation](./architecture-diagram/README.md)
 
 ---
 
 ## 📐 System Analysis & Design
+
+<p align="center">
+  <img src="assets/system-analysis-and-design/screenshot-diagram.png" width="700" alt="System Analysis & Design example UML use-case diagram" />
+</p>
 
 Produces a complete, exam-quality System Requirements Specification (SRS) and system-design document from a project idea, delivered as Markdown/PDF with properly rendered diagrams. Also runs a separate strict, evidence-based codebase audit workflow (the PAOS Code Audit Framework v2.0) — 110 questions across 13 CS/math categories, each scored 0/1/2 with file:line evidence, producing a normalized grade, a gaps report, and phased implementation plans.
 
@@ -127,7 +135,7 @@ Produces a complete, exam-quality System Requirements Specification (SRS) and sy
 
 **Use it by saying:** *"write an SRS for this project"*, *"design this system for me"*, *"audit this codebase"*, *"benchmark the code"*.
 
-➡️ [Full documentation](./system-analysis-and-design/SKILL.md)
+➡️ [Full documentation](./system-analysis-and-design/README.md)
 
 ---
 
